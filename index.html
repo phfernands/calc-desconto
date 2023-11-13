@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/673483.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de desconto NIKE - NVS</title>
+  </head>
+  <body>
+    <img src="./assets/673483.png" alt="logo-nike" />
+    <h2>Calculadora de desconto NIKE Store</h2>
+    <div id="inform-discount">
+      <label for="value-buying">Valor Total da Compra:</label>
+      <input type="number" id="value-buying" />
+    </div>
+    <div id="discount-container">
+      <div class="discount-card">
+        <p>
+          Desconto a ser aplicado: R$<span id="discount-value">500.00</span>
+        </p>
+      </div>
+      <div class="discount-card">
+        <p>Compra com desconto aplicado: R$<span id="">5000.00</span></p>
+      </div>
+    </div>
+
+    <br />
+    <div id="btn-container">
+      <button class="discount-btn" id="discount-20">
+        20% de desconto + 35%
+      </button>
+      <button class="discount-btn" id="discount-30">
+        30% de desconto + 35%
+      </button>
+      <button class="discount-btn" id="discount-40">Hash 40% + 35%</button>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
