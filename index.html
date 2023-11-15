@@ -22,26 +22,28 @@
     </div>
     <div id="discount-container">
       <div class="discount-card">
-        <p>
-          Desconto a ser aplicado: R$<span id="discount-value">500.00</span>
-        </p>
+        <p>Desconto a ser aplicado:</p>
+        <p>R$<span id="discount-value"></span></p>
       </div>
       <div class="discount-card">
-        <p>Compra com desconto aplicado: R$<span id="">5000.00</span></p>
+        <p>Compra com desconto aplicado:</p>
+        <p>R$<span id="payment-value"></span></p>
       </div>
     </div>
 
     <br />
     <div id="btn-container">
-      <button class="discount-btn" id="discount-20">
+      <button data-discount="20" class="discount-btn" id="discount-20">
         20% de desconto + 35%
       </button>
-      <button class="discount-btn" id="discount-30">
+      <button data-discount="30" class="discount-btn" id="discount-30">
         30% de desconto + 35%
       </button>
-      <button class="discount-btn" id="discount-40">Hash 40% + 35%</button>
+      <button data-discount="40" class="discount-btn" id="discount-40">
+        Hash 40% + 35%
+      </button>
     </div>
 
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>

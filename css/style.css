@@ -49,6 +49,8 @@ h2 {
   padding: 10px;
   font-weight: bold;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   border: 1px solid black;
   border-radius: 5px;
@@ -69,4 +71,5 @@ h2 {
   border: 1px solid black;
   border-radius: 10px;
   color: #e6e6e6;
+  cursor: pointer;
 }
